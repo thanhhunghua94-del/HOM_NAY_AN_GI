@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hôm nay ăn gì?</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+                <h1>HÔM NAY ĂN GÌ?</h1>
+                <p>Khỏi mắc công suy nghĩ mệt</p>
+        </header>
+        <div class="stage">
+            <div class="pointer"></div>
+            <canvas id="wheel" width="950" height="950"></canvas>
+            <button id="spin">Quay đi</button>
+        </div>
+
+        <div id="result" aria-live="polite"></div>
+
+        <div class="panel">
+            <label for="items">Danh sách món ăn</label>
+            <textarea id="items"></textarea>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
