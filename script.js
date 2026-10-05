@@ -68,7 +68,7 @@ function spin() {
  
   // 1. Chọn trước món trúng
   const winner = Math.floor(Math.random() * items.length);
-  const offset = 0.15 + Math.random() * 0.7;              // dừng ở vị trí ngẫu nhiên trong ô
+  const offset = 0.16 + Math.random() * 0.8;              // dừng ở vị trí ngẫu nhiên trong ô
   const target = -Math.PI / 2 - (winner + offset) * arc;  // kim nằm ở đỉnh (-90°)
  
   // 2. Tính góc cần quay, cộng thêm 5 vòng cho đẹp
